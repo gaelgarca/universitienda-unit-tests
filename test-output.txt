@@ -1,0 +1,16 @@
+◇ injected env (0) from .env.test // tip: ⌘ override existing { override: true }
+
+ RUN  v5.0.5 C:/Users/gaelg/OneDrive/Desktop/UAA/SEMESTRES/QUINTO SEMESTRE/PROGRAWEB/universitienda-unit-tests
+
+ ✓ tests/src/utils/generateCode.test.ts > generate code test > should generate a six digit code 3ms
+ ✓ tests/src/utils/generateCode.test.ts > generate code test > should generate unique codes 0ms
+ ✓ tests/src/utils/generateCode.test.ts > generate code test > should generate codes between 100000 and 999999 0ms
+ ✓ tests/src/utils/password.test.ts > password utils test > should generate non-empty hashes different from the original passwords 3ms
+ ✓ tests/src/utils/password.test.ts > password utils test > should return true when comparing each password with its own hash 805ms
+ ✓ tests/src/utils/password.test.ts > password utils test > should return false when comparing a password with a different hash 825ms
+
+ Test Files  2 passed (2)
+      Tests  6 passed (6)
+   Start at  19:55:40
+   Duration  3.11s (tests 93%, transform 3%, import 2%, worker 2%)
+
