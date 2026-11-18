@@ -32,3 +32,9 @@ Se usan las funciones reales, sin simular bcrypt.
 npm install
 npm test -- tests/src/utils/password.test.ts tests/src/utils/generateCode.test.ts
 ```
+
+## Evidencia
+
+Todas las pruebas pasan (6/6):
+
+![Pruebas pasando](evidencias/tests-passing.png)
